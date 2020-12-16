@@ -152,7 +152,7 @@ input, select, textarea {
 		-webkit-transition: color 0.25s ease, border-bottom-color 0.25s ease;
 		-ms-transition: color 0.25s ease, border-bottom-color 0.25s ease;
 		transition: color 0.25s ease, border-bottom-color 0.25s ease;
-		border-bottom: dotted 1px;
+
 		color: inherit;
 		text-decoration: none;
 	}
@@ -1022,10 +1022,6 @@ input, select, textarea {
 		}
 
 			#viewer .slide .caption {
-				background-image: -moz-linear-gradient(bottom, rgba(29,36,42,1), rgba(29,36,42,1) 80%, rgba(29,36,42,1));
-				background-image: -webkit-linear-gradient(bottom, rgba(29,36,42,1), rgba(29,36,42,1) 80%, rgba(29,36,42,1));
-				background-image: -ms-linear-gradient(bottom, rgba(29,36,42,1), rgba(29,36,42,1) 80%, rgba(29,36,42,1));
-				background-image: linear-gradient(bottom, rgba(29,36,42,1), rgba(29,36,42,1) 80%, rgba(29,36,42,1));
 				padding: 2em 2em 0.75em 2em ;
 				position: absolute;
 				bottom: 0;
@@ -1176,3 +1172,20 @@ input, select, textarea {
 		top: 25%;
 		right: 2.5em;
 		}
+
+
+#viewer .back {
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0.5);
+	position: fixed;
+	top: 1em;
+	right: 1em;
+	width: 1.5em;
+	height: 1.5em;
+
+	background-image: url("images/back.svg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	cursor: pointer;
+}
+}
