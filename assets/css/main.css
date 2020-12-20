@@ -5369,11 +5369,7 @@ h1 {
 }
 
 @media screen and (max-width: 1336px){
-	.wrapper > .inner {
-		width: 50em;
-		margin: 0 auto;
-	}
-
+	
 	.row > .col-3{
 		width: 25%;
 	}
