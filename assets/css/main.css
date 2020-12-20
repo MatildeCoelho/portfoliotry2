@@ -5356,6 +5356,10 @@ h1 {
 							opacity: .8;
 						}
 
+						img.profile{
+							opacity: 1;
+						}
+
 @media screen and (max-width: 1680px){
 
 	.row > .col-3{
@@ -5369,7 +5373,7 @@ h1 {
 }
 
 @media screen and (max-width: 1336px){
-	
+
 	.row > .col-3{
 		width: 25%;
 	}
